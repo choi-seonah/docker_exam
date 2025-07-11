@@ -16,7 +16,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      # 2. Checkout 코드
+      # 2. Checkout 코드 .
       - name: Checkout repository
         uses: actions/checkout@v4
 
